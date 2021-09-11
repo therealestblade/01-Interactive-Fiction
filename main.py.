@@ -1,1 +1,283 @@
-Blade Drake
+{
+  "uuid": "1E5E2BE1-2C4E-417C-B89C-632613F9C974",
+  "name": "Blade Da Sensei : Brawl At The Corner Store",
+  "creator": "Twine",
+  "creatorVersion": "2.3.14",
+  "schemaName": "Harlowe 3 to JSON",
+  "schemaVersion": "0.0.6",
+  "createdAtMs": 1631325504039,
+  "passages": [
+    {
+      "name": "Demo",
+      "tags": "",
+      "id": "1",
+      "text": "(text-colour:red)[BLADE DA SENSEI :] (text-colour:yellow)[BRAWL AT THE CORNER STORE!]\n(text-colour:white)[[[PLAY->Into The Storm]]]",
+      "links": [
+        {
+          "linkText": "[PLAY",
+          "passageName": "Into The Storm]",
+          "original": "[[[PLAY->Into The Storm]]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "BLADE DA SENSEI :",
+          "original": "[B"
+        },
+        {
+          "hookText": "BRAWL AT THE CORNER STORE!",
+          "original": "ENSEI :] (text-colour:yellow)"
+        }
+      ],
+      "cleanText": "(text-colour:red)LADE DA S[BRAWL AT THE CORNER STORE!]\n(text-colour:white)"
+    },
+    {
+      "name": "Into The Storm",
+      "tags": "",
+      "id": "2",
+      "text": "(text-colour:red)[INTO THE STORM !]\n\n(text-colour:yellow)[After a long day of training in your Dojo. You sent your two pupils to the local Corner Store to get groceries & supplies for the preparation of Dinner that evening. As you're waiting for their return, you noticed that they've been gone for a while now. What is your next move Sensei?]\n\n(text-colour:white)[[[Wait a little longer for them to come back->OH NO]]\n[[Take a journey to the Corner Store->The Journey Begins]]]",
+      "links": [
+        {
+          "linkText": "[Wait a little longer for them to come back",
+          "passageName": "OH NO]",
+          "original": "[[[Wait a little longer for them to come back->OH NO]]\n"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "INTO THE STORM !",
+          "original": "["
+        },
+        {
+          "hookText": "After a long day of training in your Dojo. You sent your two pupils to the local Corner Store to get groceries & supplies for the preparation of Dinner that evening. As you're waiting for their return, you noticed that they've been gone for a while now. What is your next move Sensei?",
+          "original": "[After a long day of training in your Dojo. You sent your two pupils to the local Corner Store to get groceries & supplies for the preparation of Dinner that evening. As you're waiting for their return, you noticed that they've b"
+        }
+      ],
+      "cleanText": "(text-colour:red)INTO THE STORM !]\n\n(text-colour:yellow)een gone for a while now. What is your next move Sensei?]\n\n(text-colour:white)[[Take a journey to the Corner Store->The Journey Begins]]]"
+    },
+    {
+      "name": "OH NO",
+      "tags": "",
+      "id": "3",
+      "text": "(text-colour:red)[OH NO!]\n\n(text-colour:yellow)[You decided to wait a little longer for your two pupils to return. As the hours fly by you become even more concerned with their whereabouts. You are then startled by a sudden knock at your door. As you open it you're greeted by the local Messenger Boy who informs you that your two pupils were found dead in the restrooms at the Corner Store they traveled to. Their causes of death is unknown...]\n\n(text-colour:white)[[[Next->DeadEnd Part 1]]]",
+      "links": [
+        {
+          "linkText": "[Next",
+          "passageName": "DeadEnd Part 1]",
+          "original": "[[[Next->DeadEnd Part 1]]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "OH NO!",
+          "original": "lour:red)"
+        },
+        {
+          "hookText": "You decided to wait a little longer for your two pupils to return. As the hours fly by you become even more concerned with their whereabouts. You are then startled by a sudden knock at your door. As you open it you're greeted by the local Messenger Boy who informs you that your two pupils were found dead in the restrooms at the Corner Store they traveled to. Their causes of death is unknown...",
+          "original": "[You decided to wait a little longer for your two pupils to return. As the hours fly by you become even more concerned with their whereabouts. You are then startled by a sudden knock at your door. As you open it you're greeted by the local Messenger Boy who informs you that your two pupils were found dead in the restrooms at the Corner Store they tr"
+        }
+      ],
+      "cleanText": "(text-co[OH NO!]\n\n(text-colour:yellow)aveled to. Their causes of death is unknown...]\n\n(text-colour:white)"
+    },
+    {
+      "name": "The Journey Begins",
+      "tags": "",
+      "id": "4",
+      "text": "(text-colour:red)[The Journey Begins! ]\n\n(text-colour:yellow)[You decided to take a journery to the Corner Store your pupils traveled to just to check on them. On your journey you encounter a gang of ninja assassins in your path & they seem like they have a bone to pick with you. Do you want to engage? What's your next move Sensei?]\n\n(text-colour:white)[[[BRING IT ON!->Fight Scene 1]]\n[[IGNORE THEM & CONTINUE WALKING->Yikes]]\n[[TURN BACK & RETURN TO THE DOJO->Yikes]]]",
+      "links": [
+        {
+          "linkText": "[BRING IT ON!",
+          "passageName": "Fight Scene 1]",
+          "original": "[[[BRING IT ON!->Fight Scene 1]]\n"
+        },
+        {
+          "linkText": "TURN BACK & RETURN TO THE DOJO",
+          "passageName": "Yikes",
+          "original": "[[TURN BACK & RETURN TO THE DOJO->Yikes]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "The Journey Begins! ",
+          "original": "[The "
+        },
+        {
+          "hookText": "You decided to take a journery to the Corner Store your pupils traveled to just to check on them. On your journey you encounter a gang of ninja assassins in your path & they seem like they have a bone to pick with you. Do you want to engage? What's your next move Sensei?",
+          "original": "[You decided to take a journery to the Corner Store your pupils traveled to just to check on them. On your journey you encounter a gang of ninja assassins in your path & they seem like they have a bone to pick wi"
+        }
+      ],
+      "cleanText": "(text-colour:red)Journey Begins! ]\n\n(text-colour:yellow)th you. Do you want to engage? What's your next move Sensei?]\n\n(text-colour:white)[[IGNORE THEM & CONTINUE WALKING->Yikes]]\n]"
+    },
+    {
+      "name": "DeadEnd Part 1",
+      "tags": "",
+      "id": "5",
+      "text": "(text-colour:red)[Dead End!]\n\n(text-colour:yellow)[Would you like to try again? What is your next move Sensei?]\n\n(text-colour:white)[[[Yes->Into The Storm]] \n[[No->Demo]] ]",
+      "links": [
+        {
+          "linkText": "[Yes",
+          "passageName": "Into The Storm]",
+          "original": "[[[Yes->Into The Storm]] "
+        },
+        {
+          "linkText": "No",
+          "passageName": "Demo",
+          "original": "[[No->Demo]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "Dead End!",
+          "original": "r:red)"
+        },
+        {
+          "hookText": "Would you like to try again? What is your next move Sensei?",
+          "original": "[Would you "
+        }
+      ],
+      "cleanText": "(text-colou[Dead End!]\n\n(text-colour:yellow)like to try again? What is your next move Sensei?]\n\n(text-colour:white)\n ]"
+    },
+    {
+      "name": "Fight Scene 1",
+      "tags": "",
+      "id": "6",
+      "text": "(text-colour:red)[BRING IT ON!]\n\n(text-colour:yellow)[You decided to engage in battle with the ninja assassins. With your top tier Kung-Fu skills you murder almost all of the ninjas except one. Before killing the last ninja left, you demand him to tell you who he works for. He refuses and slips a pill into his mouth, killing himself. As you leave the scene you suspect that these ninjas might have something to do with the whereabouts of your two pupils...\n]\n(text-colour:white)[[[Next->Brawl At The Corner Store]]]",
+      "links": [
+        {
+          "linkText": "[Next",
+          "passageName": "Brawl At The Corner Store]",
+          "original": "[[[Next->Brawl At The Corner Store]]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "BRING IT ON!",
+          "original": "ed)"
+        },
+        {
+          "hookText": "You decided to engage in battle with the ninja assassins. With your top tier Kung-Fu skills you murder almost all of the ninjas except one. Before killing the last ninja left, you demand him to tell you who he works for. He refuses and slips a pill into his mouth, killing himself. As you leave the scene you suspect that these ninjas might have something to do with the whereabouts of your two pupils...\n",
+          "original": "[You decided to engage in battle with the ninja assassins. With your top tier Kung-Fu skills you murder almost all of the ninjas except one. Before killing the last ninja left, you demand him to tell you who he works for. He refuses and slips a pill into his mouth, killing himself. As you leave the scene you suspect that these ninjas might have somethi"
+        }
+      ],
+      "cleanText": "(text-colour:r[BRING IT ON!]\n\n(text-colour:yellow)ng to do with the whereabouts of your two pupils...\n]\n(text-colour:white)"
+    },
+    {
+      "name": "Yikes",
+      "tags": "",
+      "id": "7",
+      "text": "(text-colour:red)[Yikes!]\n\n(text-colour:yellow)[With your back turned away from the ninja assassins they attack you and slice your head off your body.]\n\n(text-colour:white)[[[Next->DeadEnd Part 1]] ]",
+      "links": [
+        {
+          "linkText": "[Next",
+          "passageName": "DeadEnd Part 1]",
+          "original": "[[[Next->DeadEnd Part 1]] "
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "Yikes!",
+          "original": "lour:red)"
+        },
+        {
+          "hookText": "With your back turned away from the ninja assassins they attack you and slice your head off your body.",
+          "original": "[With your back turned away from the ninja assassins they"
+        }
+      ],
+      "cleanText": "(text-co[Yikes!]\n\n(text-colour:yellow) attack you and slice your head off your body.]\n\n(text-colour:white)]"
+    },
+    {
+      "name": "Brawl At The Corner Store",
+      "tags": "",
+      "id": "8",
+      "text": "(text-colour:red)[BRAWL AT THE CORNER STORE!]\n\n(text-colour:yellow)[You finally arrive at the Corner Store and realize that it's a ghost town. In the distance, you notice two Samurai Warriors holding your pupils hostage. They demand that you give up your Dojo in exchange for your two pupils. You refuse. The Samurais then attempt to kill your pupils but you interfere with your lighting speed and get them out of harms way. You tell them to hide out somewhere until the fight is over. Once they leave you engage in a brawl with the Samurais infront of the Corner Store.\n]\n(text-colour:white)[[[Next->Split Decisions]]]",
+      "links": [
+        {
+          "linkText": "[Next",
+          "passageName": "Split Decisions]",
+          "original": "[[[Next->Split Decisions]]]"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "BRAWL AT THE CORNER STORE!",
+          "original": "[BRAWL AT T"
+        },
+        {
+          "hookText": "You finally arrive at the Corner Store and realize that it's a ghost town. In the distance, you notice two Samurai Warriors holding your pupils hostage. They demand that you give up your Dojo in exchange for your two pupils. You refuse. The Samurais then attempt to kill your pupils but you interfere with your lighting speed and get them out of harms way. You tell them to hide out somewhere until the fight is over. Once they leave you engage in a brawl with the Samurais infront of the Corner Store.\n",
+          "original": "[You finally arrive at the Corner Store and realize that it's a ghost town. In the distance, you notice two Samurai Warriors holding your pupils hostage. They demand that you give up your Dojo in exchange for your two pupils. You refuse. The Samurais then attempt to kill your pupils but you interfere with your lighting speed and get them out of harms way. You tell them to hide out somewhere until the fight is over. Once they leave you"
+        }
+      ],
+      "cleanText": "(text-colour:red)HE CORNER STORE!]\n\n(text-colour:yellow) engage in a brawl with the Samurais infront of the Corner Store.\n]\n(text-colour:white)"
+    },
+    {
+      "name": "Split Decisions",
+      "tags": "",
+      "id": "9",
+      "text": "(text-colour:red)[SPLIT DECISIONS\n]\n(text-colour:yellow)[The battle between you and Samurais starts to get very intense. You eventually, kill one of the samurais by slicing his entire body right through the middle with your sword. After recovering from that action the Samurai trips you and is about to stab you with his sword. Your sword is about 5 feet away from your reach but there's a Gas Pump Nozzle right next to you. What should you try to grab? What's your next move Sensei?\n]\n(text-colour:white)[[[Reach For The Sword->Yikes 2]]\n[[Grab The Gas Pump Nozzle->The End]]]",
+      "links": [
+        {
+          "linkText": "[Reach For The Sword",
+          "passageName": "Yikes 2]",
+          "original": "[[[Reach For The Sword->Yikes 2]]\n"
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "SPLIT DECISIONS\n",
+          "original": "["
+        },
+        {
+          "hookText": "The battle between you and Samurais starts to get very intense. You eventually, kill one of the samurais by slicing his entire body right through the middle with your sword. After recovering from that action the Samurai trips you and is about to stab you with his sword. Your sword is about 5 feet away from your reach but there's a Gas Pump Nozzle right next to you. What should you try to grab? What's your next move Sensei?\n",
+          "original": "[The battle between you and Samurais starts to get very intense. You eventually, kill one of the samurais by slicing his entire body right through the middle with your sword. After recovering from that action the Samurai trips you and is about to stab you with his sword. Your sword is about 5 feet away from your reach but there's a Gas Pump Nozzle right next to you. What"
+        }
+      ],
+      "cleanText": "(text-colour:red)SPLIT DECISIONS\n]\n(text-colour:yellow) should you try to grab? What's your next move Sensei?\n]\n(text-colour:white)[[Grab The Gas Pump Nozzle->The End]]]"
+    },
+    {
+      "name": "Yikes 2",
+      "tags": "",
+      "id": "10",
+      "text": "(text-colour:red)[Yikes!]\n\n(text-colour:yellow)[You tried to reach for your sword but it was too far. The Samurai kills you by stabbing you with his sword...he then kills your pupils & takes your Dojo.]\n\n(text-colour:white)[[[Next->DeadEnd Part 1]] ]",
+      "links": [
+        {
+          "linkText": "[Next",
+          "passageName": "DeadEnd Part 1]",
+          "original": "[[[Next->DeadEnd Part 1]] "
+        }
+      ],
+      "hooks": [
+        {
+          "hookText": "Yikes!",
+          "original": "lour:red)"
+        },
+        {
+          "hookText": "You tried to reach for your sword but it was too far. The Samurai kills you by stabbing you with his sword...he then kills your pupils & takes your Dojo.",
+          "original": "[You tried to reach for your sword but it was too far. The Samurai kills you by stabbing you with his sword."
+        }
+      ],
+      "cleanText": "(text-co[Yikes!]\n\n(text-colour:yellow)..he then kills your pupils & takes your Dojo.]\n\n(text-colour:white)]"
+    },
+    {
+      "name": "The End",
+      "tags": "",
+      "id": "11",
+      "text": "(text-colour:red)[ALL IS WELL!]\n\n(text-colour:yellow)[You grab the Gas Pump Nozzle & spray the Samurai with the gas flluids. You then summon your strength from the Dragon Gods & spray fire on the Samurai with your Dragon Breath. The Samurai explodes. You take your pupils & return back to your Dojo!\n\nYOU DID IT! YOU WON!]\n\n(text-colour:yellow)[WOULD YOU LIKE TO PLAY AGAIN? WHAT'S YOUR NEXT MOVE SENSEI?]\n(text-colour:white)[[[YES->Into The Storm]] \n[[NO->Demo]] ]",
+      "links": [],
+      "hooks": [
+        {
+          "hookText": "ALL IS WELL!",
+          "original": "ed)"
+        },
+        {
+          "hookText": "You grab the Gas Pump Nozzle & spray the Samurai with the gas flluids. You then summon your strength from the Dragon Gods & spray fire on the Samurai with your Dragon Breath. The Samurai explodes. You take your pupils & return back to your Dojo!\n\nYOU DID IT! YOU WON!",
+          "original": "[You grab the Gas Pump Nozzle & spray the Samurai with the gas flluids. You then summon your strength from the Dragon Gods & spray fire on the Samurai with your Dragon Breath. The Samurai explodes. You take your pupi"
+        },
+        {
+          "hookText": "WOULD YOU LIKE TO PLAY AGAIN? WHAT'S YOUR NEXT MOVE SENSEI?",
+          "original": "b the Gas Pump Nozzle & spray the Samurai with the gas flluids. You then summon your strength from the Dragon Gods & spray fire on the Samurai with your Dragon Breath. The Samurai explodes. You take your pupils & return back to your Dojo!\n\nYOU DID IT! YOU WON!]\n\n(text-colour:yellow)"
+        }
+      ],
+      "cleanText": "(text-colour:r[ALL IS WELL!]\n\n(text-colour:yellow)ls & return back to your Dojo!\n\nYOU DID IT! YOU WON!]\n\n(text-colour:yellow)[WOULD YOU LIKE TO PLAY AGAIN? WHAT'S YOUR NEXT MOVE SENSEI?]\n(text-colour:white)[[[YES->Into The Storm]] \n[[NO->Demo]] ]"
+    }
+  ]
+}
